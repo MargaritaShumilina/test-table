@@ -1,0 +1,7 @@
+.table_button-sort {
+    margin: 10px
+}
+
+input::placeholder {
+    text-align: center;
+}

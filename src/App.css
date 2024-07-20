@@ -1,0 +1,42 @@
+.table-container {
+    overflow-x: auto;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    min-width: 50px;
+    position: relative;
+    gap: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid #7b7b7b;
+    padding: 8px;
+    min-width: 50px;
+}
+
+.table th .resize-handle {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    cursor: col-resize;
+    user-select: none;
+}
+
+.table th .resize-handle:hover {
+    background: #ccc;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
